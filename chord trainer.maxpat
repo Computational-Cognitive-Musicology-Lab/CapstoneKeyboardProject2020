@@ -38,6 +38,31 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1249.0, 396.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "test for merge"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1262.0, 420.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-184",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2385,7 +2410,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 87.133347, 1492.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "q"
+					"text" : "c"
 				}
 
 			}
@@ -4612,7 +4637,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "keyboard piano diagram.png",
-				"bootpath" : "~/Documents/GitHub/Georgia-Tech-Classes/~ capstone project",
+				"bootpath" : "~/Documents/GitHub/2020-Spring-BSMT-Capstone",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
