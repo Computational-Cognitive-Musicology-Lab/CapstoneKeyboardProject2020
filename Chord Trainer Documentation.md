@@ -2,9 +2,9 @@
 Spring 2020 BSMT Capstone Project
 
 ## Table of Contents
-[Contributors](#Contributors)
+[Contributors](###Contributors)
 
-[Introduction to Chord Trainer](#Introduction-to-Chord-Trainer)
+[Introduction to Chord Trainer](###Introduction-to-Chord-Trainer)
 
 ### Contributors
 
