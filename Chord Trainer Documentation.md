@@ -1,14 +1,28 @@
 # Chord Trainer Documentation
-Spring 2020 BSMT Capstone Project
+This is a BSMT Capstone Project for Spring 2020. The purpose of this project is to design a keyboard learning utility that bridges the gap between the 
 
 ## Table of Contents
-[Contributors on this Project](#Contributors-on-this-Project)
-
-[Introduction to Chord Trainer](#Introduction-to-Chord-Trainer)
+1. [Contributors on this Project](#Contributors-on-this-Project)
+2. [Introduction to Chord Trainer](#Introduction-to-Chord-Trainer)
+3. [Software Overview](#Software-Overview)
+4.
 
 ### Contributors on this Project
+**Alex Crellin**
 
-- Alex Crellin
-- Lyn Phan
+[insert information about contributor here]
+
+**Lyn Phan**
+
+[insert information about contributor here]
+
 
 ### Introduction to Chord Trainer
+
+[placeholder]
+
+### Software Overview
+
+[placeholder]
+
+###
