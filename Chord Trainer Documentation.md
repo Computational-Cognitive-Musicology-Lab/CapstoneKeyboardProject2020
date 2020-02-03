@@ -2,13 +2,13 @@
 This is a BSMT Capstone Project for Spring 2020. The purpose of this project is to design a keyboard learning utility that bridges the gap between the
 
 ## Table of Contents
-1. [Contributors on this Project](#Contributors-on-this-Project)
-2. [Introduction to Chord Trainer](#Introduction-to-Chord-Trainer)
-3. [Software Overview](#Software-Overview)
-4. [Introduction to the Level System](#Introduction-to-the-Level-System)
-5. [Levels](#Levels)
-  1. [1 Key 1 Finger 1 Chord](#1-Key-1-Finger-1-Chord)
-  2.
+- [Contributors on this Project](#Contributors-on-this-Project)
+- [Introduction to Chord Trainer](#Introduction-to-Chord-Trainer)
+- [Software Overview](#Software-Overview)
+- [Introduction to the Level System](#Introduction-to-the-Level-System)
+- [Levels](#Levels)
+  * [1 Key 1 Finger 1 Chord](#1-Key-1-Finger-1-Chord)
+  *
 
 ### Contributors on this Project
 **Alex Crellin**
