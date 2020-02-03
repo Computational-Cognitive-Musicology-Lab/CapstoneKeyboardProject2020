@@ -5,20 +5,22 @@ This is a BSMT Capstone Project for Spring 2020. The purpose of this project is 
 - [Contributors on this Project](#Contributors-on-this-Project)
 - [Introduction to Chord Trainer](#Introduction-to-Chord-Trainer)
 - [Software Overview](#Software-Overview)
-- [Introduction to the Level System](#Introduction-to-the-Level-System)
-- [Levels](#Levels)
-  * [1 Key 1 Finger 1 Chord](#1-Key-1-Finger-1-Chord)
-  *
+- [The Level System](#The-Level-System)
+  - [1 Key 1 Finger 1 Chord](#1-Key-1-Finger-1-Chord)
+  - [2 Finger Basic Chord Input](#2-Finger-Basic-Chord-Input)
+  - [3 Finger Assisted Chord Input](#3-Finger-Assisted-Chord-Input)
+  - [3 to 4 Finger Extended Assisted Chord Input](#3-to-4-Finger-Extended-Assisted-Chord-Input)
 
 ### Contributors on this Project
-**Alex Crellin**
+#### Alex Crellin
 
 [insert information about contributor here]
 
-**Lyn Phan**
+#### Lyn Phan
 
-[insert information about contributor here]
-
+- Status: Current 4th Year B.S. Music Technology @ Georgia Institute of Technology
+- Hobbies: fixing motorcycles, repairing computers, playing video games
+- Background: information technology, web development, indie game sound
 
 ### Introduction to Chord Trainer
 
@@ -28,18 +30,22 @@ This is a BSMT Capstone Project for Spring 2020. The purpose of this project is 
 
 [placeholder]
 
-### Introduction to the Level System
+### The Level System
 
 This software is intended to be used in conjunction with each level of complexity listed in this document. Each level will consist of one lesson and correspond to the same named setting in the software. The documentation will also include
 
-### Levels
-
 #### 1 Key 1 Finger 1 Chord
 
-#### Level Two: Two finger chord input
+- allows the user to set the key, and any note played on the keyboard will
+
+#### 2 Finger Basic Chord Input
+
 - root and third, will account for key
 
-#### Level Three: Reduced Assisted Chord Input
+#### 3 Finger Assisted Chord Input
+
 - major minor only but allows for either
 
-#### Level Four: Assisted Chord Input (This was the original )
+#### 3 to 4 Finger Extended Assisted Chord Input
+
+- this was the original model from the 0.1 version of this software
