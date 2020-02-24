@@ -1,6 +1,17 @@
-# TODO
-- [ ] add info about the project to this readme
-  - [ ] maybe consider putting a quick start guide here instead of in the regular documentation?
+# TODO (in order of priority)
+- [ ] implement level 2
+  - [ ] design
+  - [ ] code separately
+  - [ ] integrate into main code body
+- [ ] implement level 3
+  - [ ] design
+  - [ ] code separately
+  - [ ] integrate into main code body
+- [ ] implement UI changes
+  - [ ] design
+  - [ ] implement
+- [ ] work on documentation
+- [ ] user testing
 
 
 # Chord Trainer Documentation
