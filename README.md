@@ -1,4 +1,7 @@
 # TODO (in order of priority)
+- [ ] implement keyboard splitting
+  - [x] code separately
+  - [ ] integrate into main code body
 - [ ] implement level 2
   - [ ] design
   - [ ] code separately
