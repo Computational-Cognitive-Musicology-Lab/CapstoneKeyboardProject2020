@@ -269,7 +269,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 444.000153, 6081.199707, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "-7 67"
+					"text" : "-7 69"
 				}
 
 			}
@@ -708,7 +708,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 782.400024, 3500.699951, 160.0, 107.0 ],
+					"patching_rect" : [ 782.400024, 3500.699951, 161.0, 107.0 ],
 					"style" : "",
 					"text" : "Splitter has bugs. It does seem to be registering the split point correctly. Likely resulting from an issue with the way the notes are parsed further down with quickthresh"
 				}
@@ -1067,7 +1067,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 382.80014, 4950.199707, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "-4 64"
+					"text" : "-3 65"
 				}
 
 			}
@@ -1248,7 +1248,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 235.800156, 4508.799805, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "60"
+					"text" : "62 65"
 				}
 
 			}
@@ -1285,7 +1285,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 235.800156, 4395.399902, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "60"
+					"text" : "65 62"
 				}
 
 			}
@@ -2390,7 +2390,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-141",
-					"items" : [ "C", ",", "C#/Db", ",", "D", ",", "D#/Eb", ",", "E", ",", "F", ",", "F#/Gb", ",", "G", ",", "G#/Ab", ",", "A", ",", "A#/Bb", ",", "B", ",", "C", ",", "C#/Db", ",", "D", ",", "D#/Eb", ",", "E", ",", "F", ",", "F#/Gb", ",", "G", ",", "G#/Ab", ",", "A", ",", "A#/Bb", ",", "B", ",", "C", ",", "C#/Db", ",", "D", ",", "D#/Eb", ",", "E", ",", "F", ",", "F#/Gb", ",", "G", ",", "G#/Ab", ",", "A", ",", "A#/Bb", ",", "B", ",", "C", ",", "C#/Db", ",", "D", ",", "D#/Eb", ",", "E", ",", "F", ",", "F#/Gb", ",", "G", ",", "G#/Ab", ",", "A", ",", "A#/Bb", ",", "B" ],
+					"items" : [ "C", ",", "C#/Db", ",", "D", ",", "D#/Eb", ",", "E", ",", "F", ",", "F#/Gb", ",", "G", ",", "G#/Ab", ",", "A", ",", "A#/Bb", ",", "B", ",", "C", ",", "C#/Db", ",", "D", ",", "D#/Eb", ",", "E", ",", "F", ",", "F#/Gb", ",", "G", ",", "G#/Ab", ",", "A", ",", "A#/Bb", ",", "B", ",", "C", ",", "C#/Db", ",", "D", ",", "D#/Eb", ",", "E", ",", "F", ",", "F#/Gb", ",", "G", ",", "G#/Ab", ",", "A", ",", "A#/Bb", ",", "B", ",", "C", ",", "C#/Db", ",", "D", ",", "D#/Eb", ",", "E", ",", "F", ",", "F#/Gb", ",", "G", ",", "G#/Ab", ",", "A", ",", "A#/Bb", ",", "B", ",", "C", ",", "C#/Db", ",", "D", ",", "D#/Eb", ",", "E", ",", "F", ",", "F#/Gb", ",", "G", ",", "G#/Ab", ",", "A", ",", "A#/Bb", ",", "B" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2451,7 +2451,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 515.400085, 2875.799805, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "38"
+					"text" : "62"
 				}
 
 			}
@@ -2488,7 +2488,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 515.400085, 2762.399902, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "38"
+					"text" : "62"
 				}
 
 			}
@@ -3589,7 +3589,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 49.0, 605.0, 446.0, 131.0 ],
+					"patching_rect" : [ 49.0, 605.0, 446.0, 117.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 12,
 					"presentation_rect" : [ 1206.400024, 280.800018, 248.0, 172.0 ],
@@ -4090,7 +4090,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 475.099976, 1136.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "60"
+					"text" : "65"
 				}
 
 			}
@@ -4921,7 +4921,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 87.133347, 1492.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : ""
+					"text" : "q"
 				}
 
 			}
@@ -6008,6 +6008,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-247", 0 ],
+					"order" : 0,
+					"source" : [ "obj-179", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 1 ],
+					"order" : 1,
 					"source" : [ "obj-179", 0 ]
 				}
 
@@ -6670,15 +6679,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-265", 0 ],
-					"order" : 0,
-					"source" : [ "obj-250", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-31", 1 ],
-					"order" : 1,
 					"source" : [ "obj-250", 0 ]
 				}
 

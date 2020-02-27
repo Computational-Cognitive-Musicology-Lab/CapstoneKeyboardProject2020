@@ -13,7 +13,9 @@
 - [x] implement UI changes
   - [x] design
   - [x] implement
-- [ ] work on documentation
+- [ ] work on documentation ---- current priority
+- [ ] fix bugs --- current priority
+- [ ] playing in key with level 2-4
 - [ ] user testing
 
 
