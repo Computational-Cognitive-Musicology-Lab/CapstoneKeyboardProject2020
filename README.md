@@ -2,17 +2,17 @@
 - [x] implement keyboard splitting
   - [x] code separately
   - [x] integrate into main code body
-- [ ] implement level 2
-  - [ ] design
-  - [ ] code separately
-  - [ ] integrate into main code body
-- [ ] implement level 3
-  - [ ] design
-  - [ ] code separately
-  - [ ] integrate into main code body
-- [ ] implement UI changes
-  - [ ] design
-  - [ ] implement
+- [x] implement level 2
+  - [x] design
+  - [x] code separately
+  - [x] integrate into main code body
+- [x] implement level 3
+  - [x] design
+  - [x] code separately
+  - [x] integrate into main code body
+- [x] implement UI changes
+  - [x] design
+  - [x] implement
 - [ ] work on documentation
 - [ ] user testing
 
