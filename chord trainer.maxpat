@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 88.0, 1446.0, 908.0 ],
+		"rect" : [ 34.0, 88.0, 1852.0, 908.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1693,7 +1693,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 123.800156, 3479.199951, 122.0, 122.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 82.200157, 848.799927, 122.0, 122.0 ],
+					"presentation_rect" : [ 73.599998, 65.29995, 122.0, 122.0 ],
 					"style" : ""
 				}
 
@@ -1732,9 +1732,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 605.800171, 3674.199951, 150.0, 158.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 11,
-					"presentation_rect" : [ 482.600159, 838.999878, 150.0, 158.0 ],
 					"style" : "",
 					"text" : "you can use the slider to select the split point\n\n\nor\n\n\n\ntype the note in here\n\n(default is C4)"
 				}
@@ -1750,7 +1747,7 @@
 					"patching_rect" : [ 344.800171, 3617.199951, 182.0, 158.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 11,
-					"presentation_rect" : [ 221.600174, 830.799927, 182.0, 158.0 ],
+					"presentation_rect" : [ 35.599998, 195.299774, 182.0, 158.0 ],
 					"style" : "",
 					"text" : "SPLITTER:\n\nset the point where the keyboard will split inputs.\nAny note above and including the selected one will pass to the right for the melody\n\nany note played below the selected one will pass to left for harmony, our chord maker."
 				}
@@ -1766,7 +1763,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 574.800171, 3617.199951, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 451.600159, 830.799927, 20.0, 140.0 ],
+					"presentation_rect" : [ 47.399818, 45.299828, 20.0, 140.0 ],
 					"style" : ""
 				}
 
@@ -1826,7 +1823,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 551.800171, 3788.199951, 52.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 428.600159, 1001.799927, 52.0, 23.0 ],
+					"presentation_rect" : [ 108.599998, 37.399834, 52.0, 23.0 ],
 					"style" : ""
 				}
 
@@ -2320,9 +2317,9 @@
 					"patching_rect" : [ 1008.799988, 2672.800049, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 235.999985, 368.799957, 150.0, 34.0 ],
+					"presentation_rect" : [ 689.799927, 116.700073, 180.0, 34.0 ],
 					"style" : "",
-					"text" : "key for 1 key 1 finger 1 chord"
+					"text" : "key selector for level 1: 1 key 1 finger 1 chord"
 				}
 
 			}
@@ -2401,7 +2398,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 821.049988, 2647.800049, 141.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 219.0, 418.700073, 141.0, 22.0 ],
+					"presentation_rect" : [ 689.799927, 165.300095, 141.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -2578,7 +2575,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.300014, 2497.599609, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 777.900024, 506.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 543.899902, 299.600006, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Chord quality"
 				}
@@ -2593,7 +2590,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 37.200008, 2464.599609, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 938.900024, 506.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 704.899902, 299.600006, 50.0, 22.0 ],
 					"style" : "",
 					"text" : "M"
 				}
@@ -2735,7 +2732,7 @@
 					"patching_rect" : [ 178.999969, 2450.599609, 50.0, 50.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 1088.600098, 506.0, 50.0, 50.0 ],
+					"presentation_rect" : [ 775.199951, 280.800018, 50.0, 50.0 ],
 					"style" : "",
 					"text" : "fifth was played"
 				}
@@ -2799,7 +2796,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 308.799988, 2494.199951, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 777.900024, 555.300171, 150.0, 20.0 ],
+					"presentation_rect" : [ 543.899902, 331.300171, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "7th or Octave"
 				}
@@ -2814,7 +2811,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 347.200012, 2465.399902, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 938.900024, 555.300171, 50.0, 22.0 ],
+					"presentation_rect" : [ 704.899902, 331.300171, 50.0, 22.0 ],
 					"style" : "",
 					"text" : "major 7"
 				}
@@ -2928,7 +2925,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1575.550049, 576.300171, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 777.900024, 458.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 543.899902, 262.799988, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Root"
 				}
@@ -2942,7 +2939,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 49.0, 12.0, 379.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 12.0, 379.0, 20.0 ],
+					"presentation_rect" : [ 644.399963, 475.500427, 379.0, 20.0 ],
 					"style" : "",
 					"text" : "Chart for Computer Keyboard Input (Optional) --- Press ` to Toggle"
 				}
@@ -2958,7 +2955,7 @@
 					"patching_rect" : [ 1125.0, 111.0, 150.0, 144.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 10,
-					"presentation_rect" : [ 1105.0, 40.200134, 150.0, 144.0 ],
+					"presentation_rect" : [ 1206.400024, 13.100069, 150.0, 144.0 ],
 					"style" : "",
 					"text" : "Easy Start Guide\n1. Press ` to toggle computer keyboard input, otherwise it just accepts MIDI input.\n2. Set the mode under Mode Selector.\n3. Set the sustain length slider if desired.\n4. Play the instrument."
 				}
@@ -2974,7 +2971,7 @@
 					"patching_rect" : [ 49.0, 40.200134, 1027.0, 295.0 ],
 					"pic" : "keyboard piano diagram.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 40.200134, 1027.0, 295.0 ]
+					"presentation_rect" : [ 215.600006, 502.300354, 1027.0, 295.0 ]
 				}
 
 			}
@@ -3592,12 +3589,12 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 49.0, 605.0, 446.0, 117.0 ],
+					"patching_rect" : [ 49.0, 605.0, 446.0, 131.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 8,
-					"presentation_rect" : [ 49.0, 576.300171, 446.0, 117.0 ],
+					"presentation_linecount" : 12,
+					"presentation_rect" : [ 1206.400024, 280.800018, 248.0, 172.0 ],
 					"style" : "",
-					"text" : "My Improved Method:\nAnything not mentioned here doesn't go through to ease learning.\n1 finger = just that one note\n2 fingers = major or minor or sus2 or sus4 depending on what the third is. adds 5th automatically to complete the chord\n3 fingers = same as above, but it is already completed by player\n4 fingers = same as above, but adds possiblity for minor 7th, major 7th, or octave above root \n"
+					"text" : "My Improved Method (now called level 4):\nAnything not mentioned here doesn't go through to ease learning.\n1 finger = just that one note\n2 fingers = major or minor or sus2 or sus4 depending on what the third is. adds 5th automatically to complete the chord\n3 fingers = same as above, but it is already completed by player\n4 fingers = same as above, but adds possiblity for minor 7th, major 7th, or octave above root \n"
 				}
 
 			}
@@ -3622,7 +3619,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1115.349976, 387.700073, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 539.699951, 387.700073, 150.0, 20.0 ],
+					"presentation_rect" : [ 862.999939, 171.90007, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Sustain Length Slider"
 				}
@@ -3701,7 +3698,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 49.0, 387.700073, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 387.700073, 150.0, 20.0 ],
+					"presentation_rect" : [ 513.0, 133.90007, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Mode Selector"
 				}
@@ -3974,7 +3971,7 @@
 					"patching_rect" : [ 203.600006, 485.0, 185.0, 103.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 49.0, 454.0, 185.0, 103.0 ],
+					"presentation_rect" : [ 1206.400024, 166.900101, 185.0, 103.0 ],
 					"style" : "",
 					"text" : "Casio Chord:\nleftmost note is root\n1 finger = major\n2 fingers = minor\n3 fingers = dominant 7\n4 fingers = minor 7\nmore than 4 fingers = minor 7\n"
 				}
@@ -4366,16 +4363,16 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-97",
-					"linecount" : 2,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 49.0, 800.0, 164.0, 34.0 ],
+					"patching_rect" : [ 49.0, 800.0, 164.0, 62.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1098.0, 230.0, 164.0, 34.0 ],
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 28.399998, 646.799927, 164.0, 62.0 ],
 					"style" : "",
-					"text" : "Is the computer keyboard accepting inputs?"
+					"text" : "Computer keyboard input:\nPress ~ to toggle. This button isn't clickable right now."
 				}
 
 			}
@@ -4402,7 +4399,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 49.0, 886.399963, 347.600006, 347.600006 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1267.900024, 206.600128, 152.600006, 152.600006 ],
+					"presentation_rect" : [ 32.099949, 502.300354, 152.600006, 152.600006 ],
 					"style" : ""
 				}
 
@@ -4924,7 +4921,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 87.133347, 1492.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : ""
+					"text" : ""
 				}
 
 			}
@@ -5030,7 +5027,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 49.0, 489.700104, 141.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 414.100098, 141.0, 22.0 ],
+					"presentation_rect" : [ 513.0, 165.300095, 141.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -5152,7 +5149,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1115.349976, 485.0, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 552.5, 423.0, 20.0, 140.0 ],
+					"presentation_rect" : [ 918.89978, 22.999992, 20.0, 140.0 ],
 					"style" : ""
 				}
 
@@ -5181,7 +5178,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1508.550049, 576.300171, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 938.900024, 458.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 704.899902, 262.799988, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -5247,7 +5244,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1389.550049, 510.000031, 336.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 777.900024, 387.700073, 336.0, 53.0 ],
+					"presentation_rect" : [ 508.5, 47.700069, 336.0, 53.0 ],
 					"style" : ""
 				}
 
