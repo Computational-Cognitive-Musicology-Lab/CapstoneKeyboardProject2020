@@ -90,4 +90,4 @@ The user is now no longer limited to simple major and minor chords. They can now
 
 *Technical Explanation*
 
-This mode builds on the previous level. In addition to forming major and minor chords, the user is allowed even more freedom in forming chords. This mode is mostly intended as more for exploration, as it additionally allows for sus2, sus4, min7, Maj7, and octave intervals to be formed over the root in addition to the major third, minor third, and major fifth. Any note outside of these possibilities will again be filtered out.
+This mode builds on the previous level. In addition to forming major and minor chords, the user is allowed even more freedom in forming chords. This mode is mostly intended for exploration, as it additionally allows for sus2, sus4, min7, Maj7, and octave intervals to be formed over the root in addition to the major third, minor third, and major fifth. Any note outside of these possibilities will again be filtered out.
