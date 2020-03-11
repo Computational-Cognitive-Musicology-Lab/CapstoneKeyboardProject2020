@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 88.0, 1852.0, 908.0 ],
+		"rect" : [ 34.0, 77.0, 1532.0, 749.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-222",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 821.049988, 2561.600098, 43.0, 22.0 ],
+					"style" : "",
+					"text" : "pipe 5"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-455",
 					"maxclass" : "comment",
@@ -2355,7 +2368,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 821.049988, 2561.600098, 60.0, 22.0 ],
+					"patching_rect" : [ 821.049988, 2515.600098, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -2390,7 +2403,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-141",
-					"items" : [ "C", ",", "C#/Db", ",", "D", ",", "D#/Eb", ",", "E", ",", "F", ",", "F#/Gb", ",", "G", ",", "G#/Ab", ",", "A", ",", "A#/Bb", ",", "B", ",", "C", ",", "C#/Db", ",", "D", ",", "D#/Eb", ",", "E", ",", "F", ",", "F#/Gb", ",", "G", ",", "G#/Ab", ",", "A", ",", "A#/Bb", ",", "B", ",", "C", ",", "C#/Db", ",", "D", ",", "D#/Eb", ",", "E", ",", "F", ",", "F#/Gb", ",", "G", ",", "G#/Ab", ",", "A", ",", "A#/Bb", ",", "B", ",", "C", ",", "C#/Db", ",", "D", ",", "D#/Eb", ",", "E", ",", "F", ",", "F#/Gb", ",", "G", ",", "G#/Ab", ",", "A", ",", "A#/Bb", ",", "B", ",", "C", ",", "C#/Db", ",", "D", ",", "D#/Eb", ",", "E", ",", "F", ",", "F#/Gb", ",", "G", ",", "G#/Ab", ",", "A", ",", "A#/Bb", ",", "B" ],
+					"items" : [ "C", ",", "C#/Db", ",", "D", ",", "D#/Eb", ",", "E", ",", "F", ",", "F#/Gb", ",", "G", ",", "G#/Ab", ",", "A", ",", "A#/Bb", ",", "B" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2451,7 +2464,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 515.400085, 2875.799805, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "62"
+					"text" : "60"
 				}
 
 			}
@@ -2488,7 +2501,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 515.400085, 2762.399902, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "62"
+					"text" : "60"
 				}
 
 			}
@@ -2939,7 +2952,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 49.0, 12.0, 379.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 644.399963, 475.500427, 379.0, 20.0 ],
+					"presentation_rect" : [ 640.399963, 375.000092, 379.0, 20.0 ],
 					"style" : "",
 					"text" : "Chart for Computer Keyboard Input (Optional) --- Press ` to Toggle"
 				}
@@ -2955,7 +2968,7 @@
 					"patching_rect" : [ 1125.0, 111.0, 150.0, 144.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 10,
-					"presentation_rect" : [ 1206.400024, 13.100069, 150.0, 144.0 ],
+					"presentation_rect" : [ 1252.400024, 13.100069, 150.0, 144.0 ],
 					"style" : "",
 					"text" : "Easy Start Guide\n1. Press ` to toggle computer keyboard input, otherwise it just accepts MIDI input.\n2. Set the mode under Mode Selector.\n3. Set the sustain length slider if desired.\n4. Play the instrument."
 				}
@@ -2968,10 +2981,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 49.0, 40.200134, 1027.0, 295.0 ],
-					"pic" : "keyboard piano diagram.png",
+					"patching_rect" : [ 49.0, 35.5, 1027.0, 295.0 ],
+					"pic" : "scaled down updated keyboard diagram.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 215.600006, 502.300354, 1027.0, 295.0 ]
+					"presentation_rect" : [ 216.399902, 402.800018, 1027.0, 295.0 ]
 				}
 
 			}
@@ -3592,7 +3605,7 @@
 					"patching_rect" : [ 49.0, 605.0, 446.0, 117.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 12,
-					"presentation_rect" : [ 1206.400024, 280.800018, 248.0, 172.0 ],
+					"presentation_rect" : [ 1252.400024, 280.800018, 248.0, 172.0 ],
 					"style" : "",
 					"text" : "My Improved Method (now called level 4):\nAnything not mentioned here doesn't go through to ease learning.\n1 finger = just that one note\n2 fingers = major or minor or sus2 or sus4 depending on what the third is. adds 5th automatically to complete the chord\n3 fingers = same as above, but it is already completed by player\n4 fingers = same as above, but adds possiblity for minor 7th, major 7th, or octave above root \n"
 				}
@@ -3971,7 +3984,7 @@
 					"patching_rect" : [ 203.600006, 485.0, 185.0, 103.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 1206.400024, 166.900101, 185.0, 103.0 ],
+					"presentation_rect" : [ 1252.400024, 166.900101, 185.0, 103.0 ],
 					"style" : "",
 					"text" : "Casio Chord:\nleftmost note is root\n1 finger = major\n2 fingers = minor\n3 fingers = dominant 7\n4 fingers = minor 7\nmore than 4 fingers = minor 7\n"
 				}
@@ -4090,7 +4103,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 475.099976, 1136.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "65"
+					"text" : "60"
 				}
 
 			}
@@ -4370,7 +4383,7 @@
 					"patching_rect" : [ 49.0, 800.0, 164.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 28.399998, 646.799927, 164.0, 62.0 ],
+					"presentation_rect" : [ 32.099949, 658.799927, 164.0, 62.0 ],
 					"style" : "",
 					"text" : "Computer keyboard input:\nPress ~ to toggle. This button isn't clickable right now."
 				}
@@ -5545,7 +5558,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-133", 0 ],
+					"destination" : [ "obj-143", 0 ],
+					"order" : 0,
+					"source" : [ "obj-146", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-222", 0 ],
+					"order" : 1,
 					"source" : [ "obj-146", 0 ]
 				}
 
@@ -6008,15 +6030,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-247", 0 ],
-					"order" : 0,
-					"source" : [ "obj-179", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-31", 1 ],
-					"order" : 1,
 					"source" : [ "obj-179", 0 ]
 				}
 
@@ -6237,6 +6250,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-224", 0 ],
 					"source" : [ "obj-220", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-133", 0 ],
+					"order" : 1,
+					"source" : [ "obj-222", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-249", 0 ],
+					"order" : 0,
+					"source" : [ "obj-222", 0 ]
 				}
 
 			}
@@ -6837,6 +6866,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-256", 0 ],
 					"source" : [ "obj-264", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 1 ],
+					"source" : [ "obj-265", 0 ]
 				}
 
 			}
@@ -8994,7 +9030,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "keyboard piano diagram.png",
+				"name" : "scaled down updated keyboard diagram.png",
 				"bootpath" : "~/Documents/GitHub/CapstoneKeyboardProject2020",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
