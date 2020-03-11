@@ -50,13 +50,13 @@ placeholder
 
 ### The Level System
 
-This software is intended to be used in conjunction with each level of complexity listed in this document. Each level will consist of one lesson and correspond to the same named setting in the software. The documentation will also include
+Each level in this system allows for increasing amounts of user interaction. This allows for a user to play the same song throughout all for levels, adding more and more fingers until they are able to play the song without any assistance.
 
 #### 1 Key 1 Finger 1 Chord
 
 *Basic Explanation*
 
-The user can select a scale to play in. After that, any input will either play the relevant chord for that note or a single note, depending on whether that note is in key.
+The user can select a scale to play in. After that, any one finger input will either play the relevant chord for that note or a single note, depending on whether that note is in key.
 
 *Technical Explanation*
 
