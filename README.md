@@ -35,7 +35,9 @@ This is a BSMT Capstone Project for Spring 2020. The purpose of this project is 
 ### Contributors
 #### Alex Crellin
 
-[insert information about contributor here]
+- Email: acrellin1195@gmail.com
+- Status: Current 5th Year B.S. Music Technology @ Georgia Institute of Technology
+- Hobbies: hiking, drumming, playing video games
 
 #### Lyn Phan
 
