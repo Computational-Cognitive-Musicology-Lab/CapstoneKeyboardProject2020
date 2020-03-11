@@ -14,42 +14,39 @@
   - [x] design
   - [x] implement
 - [ ] work on documentation ---- current priority
-- [ ] fix bugs --- current priority
+- [x] fix bugs --- current priority
 - [ ] playing in key with level 2-4
 - [ ] user testing
+- [ ] add relative minor to the key list in the 1 key 1 finger 1 chord section
 
 
-# Chord Trainer Documentation
-This is a BSMT Capstone Project for Spring 2020. The purpose of this project is to design a keyboard learning utility that bridges the gap between the
+# Assistive Chord Trainer for Keyboard Instruments
+This is a BSMT Capstone Project for Spring 2020. The purpose of this project is to design a keyboard learning utility that bridges the gap between learning to play single notes and learning to play chords on a keyboard instrument.
 
 ## Table of Contents
-- [Contributors on this Project](#Contributors-on-this-Project)
-- [Introduction to Chord Trainer](#Introduction-to-Chord-Trainer)
-- [Software Overview](#Software-Overview)
+- [Contributors](#Contributors)
+- [Suggested Use Scenario](#Suggested-Use-Scenario)
 - [The Level System](#The-Level-System)
   - [1 Key 1 Finger 1 Chord](#1-Key-1-Finger-1-Chord)
   - [2 Finger Basic Chord Input](#2-Finger-Basic-Chord-Input)
   - [3 Finger Assisted Chord Input](#3-Finger-Assisted-Chord-Input)
   - [3 to 4 Finger Extended Assisted Chord Input](#3-to-4-Finger-Extended-Assisted-Chord-Input)
 
-### Contributors on this Project
+### Contributors
 #### Alex Crellin
 
 [insert information about contributor here]
 
 #### Lyn Phan
 
+- Email: phan@gatech.edu
 - Status: Current 4th Year B.S. Music Technology @ Georgia Institute of Technology
 - Hobbies: fixing motorcycles, repairing computers, playing video games
 - Background: information technology, web development, indie game sound
 
-### Introduction to Chord Trainer
+### Suggested Use Scenario
 
-[placeholder]
-
-### Software Overview
-
-[placeholder]
+placeholder
 
 ### The Level System
 
@@ -57,16 +54,40 @@ This software is intended to be used in conjunction with each level of complexit
 
 #### 1 Key 1 Finger 1 Chord
 
-- allows the user to set the key, and any note played on the keyboard will
+*Basic Explanation*
+
+The user can select a scale to play in. After that, any input will either play the relevant chord for that note or a single note, depending on whether that note is in key.
+
+*Technical Explanation*
+
+This mode allows for the user to set a major key or relative minor key and play a single note from that scale. That note will be taken as the root of the chord. Two key appropriate third intervals will be stacked on that root to form a chord, resulting in a major, minor, or diminished chord depending on the root. Any notes played that are outside the selected key will be passed through without any chord being produced.
 
 #### 2 Finger Basic Chord Input
 
-- root and third, will account for key
+*Basic Explanation*
+
+The user can play any major or minor chord using two fingers. They should know what roots are from the previous level, so to play the same music they will have to use one more finger to play the third of the chord to trigger it.
+
+*Technical Explanation*
+
+This mode allows for the user to play a chord using two fingers on the root and middle third of the chord. This mode also unrestricts the key limitation and allows the user to play any chord in any key, but the user is limited in that they can only form major and minor chords. This allows for experimentation as the user can learn to finger the corresponding major and minor chords for each root note. The user can also build off of the previous level by playing the same chords as they did for songs, but this time actively choosing whether to play major or minor for that particular key. Any notes outside the accepted major or minor third over the selected root will not be played, resulting in only the root note being played.
 
 #### 3 Finger Assisted Chord Input
 
-- major minor only but allows for either
+*Basic Explanation*
+
+Having learned how to play two notes in a chord, the user will now be required to find the note played by a third finger in the chord, the fifth.
+
+*Technical Explanation*
+
+This mode is identical to that of the previous level, but the fifth of the chord will no longer be filled in and must be played manually. This again forces a user to intuitively find where to place their third finger on the fifth of the chord. Any notes outside of the accepted inputs of major third, minor third, and major fifth will be filtered out.
 
 #### 3 to 4 Finger Extended Assisted Chord Input
 
-- this was the original model from the 0.1 version of this software
+*Basic Explanation*
+
+The user is now no longer limited to simple major and minor chords. They can now also add different tone qualities by adding or moving the fingers they currently use on the chords that they know. This is useful for exploring and trying out different sounds.
+
+*Technical Explanation*
+
+This mode builds on the previous level. In addition to forming major and minor chords, the user is allowed even more freedom in forming chords. This mode is mostly intended as more for exploration, as it additionally allows for sus2, sus4, min7, Maj7, and octave intervals to be formed over the root in addition to the major third, minor third, and major fifth. Any note outside of these possibilities will again be filtered out.
