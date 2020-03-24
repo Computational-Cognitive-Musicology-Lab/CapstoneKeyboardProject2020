@@ -18,6 +18,7 @@
 - [ ] playing in key with level 2-4
 - [ ] user testing
 - [ ] add relative minor to the key list in the 1 key 1 finger 1 chord section
+- [ ] fix the bugs that are related to midi keyboard input
 
 
 # Assistive Chord Trainer for Keyboard Instruments
