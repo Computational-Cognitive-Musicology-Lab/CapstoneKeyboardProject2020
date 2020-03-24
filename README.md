@@ -13,12 +13,15 @@
 - [x] implement UI changes
   - [x] design
   - [x] implement
-- [ ] work on documentation ---- current priority
+- [x] work on documentation ---- current priority
 - [x] fix bugs --- current priority
 - [ ] playing in key with level 2-4
 - [ ] user testing
 - [ ] add relative minor to the key list in the 1 key 1 finger 1 chord section
 - [ ] fix the bugs that are related to midi keyboard input
+  - [ ] sustain lengths seem to be limited to when the keys are held down
+    - [ ] possibly the sustain length might only apply to computer keyboard because of noteoff messages that get sent
+  - [ ] note input is still a bit finicky in terms of detection
 
 
 # Assistive Chord Trainer for Keyboard Instruments
