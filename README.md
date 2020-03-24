@@ -15,6 +15,7 @@
   - [x] implement
 - [x] work on documentation ---- current priority
 - [x] fix bugs --- current priority
+- [ ] add pretty pictures to documentation
 - [ ] playing in key with level 2-4
 - [ ] user testing
 - [ ] add relative minor to the key list in the 1 key 1 finger 1 chord section
