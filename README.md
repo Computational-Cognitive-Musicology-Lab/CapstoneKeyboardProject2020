@@ -25,7 +25,7 @@
   - [ ] note input is still a bit finicky in terms of detection
 
 
-![Alt text](test.png?raw=true "Optional Title")
+
 
 # Assistive Chord Trainer for Keyboard Instruments
 This is a BSMT Capstone Project for Spring 2020. The purpose of this project is to design a keyboard learning utility that bridges the gap between learning to play single notes and learning to play chords on a keyboard instrument.
@@ -56,6 +56,22 @@ This is a BSMT Capstone Project for Spring 2020. The purpose of this project is 
 ### Suggested Use Scenario
 
 placeholder
+
+### Diagram Notes
+
+The diagrams for each level will be shown using keyboard diagrams like this. Notes performed by the user in these examples are represented by the blue dots. Green dots represent anything output automatically by the chord trainer. Red dots represent an incorrect input from the user. Written information will be added next to each diagram to provide context to supplement the diagram.
+
+Here is a blank keyboard diagram.
+
+![Blank Piano Keyboard Diagram](/Assets/Pictures/blank_piano_keyboard.png?raw=true "Blank Piano Keyboard Diagram")
+
+Here is an example of a keyboard diagram. This example represents a user who has played a C. We can also see that they played the note D above that C, but it was not available to be played in the selected mode and was red. The two green notes added by this program were the E and G above the C. From this information we can gather that the 
+
+![Blank Piano Keyboard Diagram](/Assets/Pictures/example_diagram.png?raw=true "Blank Piano Keyboard Diagram")
+
+### Using Without a MIDI Keyboard
+
+![Computer Keyboard Diagram](/Assets/Pictures/keyboard_diagram.png?raw=true "Computer Keyboard Diagram")
 
 ### The Level System
 
