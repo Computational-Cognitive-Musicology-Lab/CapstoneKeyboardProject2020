@@ -1,4 +1,4 @@
-# TODO (in order of priority)
+# To Do (In Order of Priority)
 - [x] implement keyboard splitting
   - [x] code separately
   - [x] integrate into main code body
@@ -24,6 +24,8 @@
     - [ ] possibly the sustain length might only apply to computer keyboard because of noteoff messages that get sent
   - [ ] note input is still a bit finicky in terms of detection
 
+
+![Alt text](test.png?raw=true "Optional Title")
 
 # Assistive Chord Trainer for Keyboard Instruments
 This is a BSMT Capstone Project for Spring 2020. The purpose of this project is to design a keyboard learning utility that bridges the gap between learning to play single notes and learning to play chords on a keyboard instrument.
