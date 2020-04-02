@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 77.0, 1532.0, 749.0 ],
+		"rect" : [ 34.0, 88.0, 1446.0, 908.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -2982,7 +2982,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 49.0, 35.5, 1027.0, 295.0 ],
-					"pic" : "scaled down updated keyboard diagram.png",
+					"pic" : "C:/Users/lynca/Documents/GitHub/CapstoneKeyboardProject2020/Assets/Pictures/scaled_down_updated_keyboard_diagram.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 216.399902, 402.800018, 1027.0, 295.0 ]
 				}
@@ -9030,9 +9030,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "scaled down updated keyboard diagram.png",
-				"bootpath" : "~/Documents/GitHub/CapstoneKeyboardProject2020",
-				"patcherrelativepath" : ".",
+				"name" : "scaled_down_updated_keyboard_diagram.png",
+				"bootpath" : "~/Documents/GitHub/CapstoneKeyboardProject2020/Assets/Pictures",
+				"patcherrelativepath" : "./Assets/Pictures",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
