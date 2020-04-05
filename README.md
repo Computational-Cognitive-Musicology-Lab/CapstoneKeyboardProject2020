@@ -120,15 +120,15 @@ This mode allows for the user to play a chord using two fingers on the root and 
 
 In this first example the user plays a B Major chord. The fifth of the chord, F#, is filled in by the chord trainer.
 
-![Hand Press Example in Level 1](/Assets/Pictures/level_2_1.png?raw=true "Blank Piano Keyboard Diagram")
+![B Major](/Assets/Pictures/level_2_1.png?raw=true "Blank Piano Keyboard Diagram")
 
 The user is also able to play a minor B chord, by playing D natural, which is a minor third above the root B, shown below.
 
-![Hand Press Example in Level 1](/Assets/Pictures/level_2_2.png?raw=true "Blank Piano Keyboard Diagram")
+![B minor](/Assets/Pictures/level_2_2.png?raw=true "Blank Piano Keyboard Diagram")
 
 If the user plays a not that is not the major or minor third, then that note simply won't play. The fifth will still be filled in by the chord trainer since that is based off of the root, shown below.
 
-![Hand Press Example in Level 1](/Assets/Pictures/level_2_3.png?raw=true "Blank Piano Keyboard Diagram")
+![B "power chord"](/Assets/Pictures/level_2_3.png?raw=true "Blank Piano Keyboard Diagram")
 
 #### 3 Finger Assisted Chord Input
 
@@ -142,7 +142,17 @@ This mode is identical to that of the previous level, but the fifth of the chord
 
 *Visual Examples*
 
+The A minor chord seen below requires all three fingers to be played.
 
+![A minor](/Assets/Pictures/level_3_1.png?raw=true "Blank Piano Keyboard Diagram")
+
+If the fifth is not input by the user, then it will not be played.
+
+![A minor without fifth](/Assets/Pictures/level_3_2.png?raw=true "Blank Piano Keyboard Diagram")
+
+In this example the user plays the root and the fourth above the root, resulting in only the root of the A minor to play.
+
+![A minor attempt with fourth](/Assets/Pictures/level_3_3.png?raw=true "Blank Piano Keyboard Diagram")
 
 
 #### 3 to 4 Finger Extended Assisted Chord Input
@@ -156,3 +166,15 @@ The user is now no longer limited to simple major and minor chords. They can now
 This mode builds on the previous level. In addition to forming major and minor chords, the user is allowed even more freedom in forming chords. This mode is mostly intended for exploration, as it additionally allows for sus2, sus4, min7, Maj7, and octave intervals to be formed over the root in addition to the major third, minor third, and major fifth. Any note outside of these possibilities will again be filtered out.
 
 *Visual Examples*
+
+More advanced chords can be built, such as a Csus2-7 (read as C suspended 2nd minor 7th).
+
+![Csus2-7](/Assets/Pictures/level_4_1.png?raw=true "Blank Piano Keyboard Diagram")
+
+Some notes are still restricted, such as the tritone and sixth, since those are not as musically useful for root position chords.
+
+![F# and A are not valid for a a C root, but E is](/Assets/Pictures/level_4_2.png?raw=true "Blank Piano Keyboard Diagram")
+
+The diagram below shows which notes are valid with a C root note. The C an octave above the chord is also an allowed input.
+
+![Valid notes for a C root note](/Assets/Pictures/level_4_3.png?raw=true "Blank Piano Keyboard Diagram")
