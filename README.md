@@ -33,6 +33,7 @@ This is a BSMT Capstone Project for Spring 2020. The purpose of this project is 
 ## Table of Contents
 - [Contributors](#Contributors)
 - [Suggested Use Scenario](#Suggested-Use-Scenario)
+- [Diagram Notes](#Diagram-Notes)
 - [The Level System](#The-Level-System)
   - [1 Key 1 Finger 1 Chord](#1-Key-1-Finger-1-Chord)
   - [2 Finger Basic Chord Input](#2-Finger-Basic-Chord-Input)
@@ -59,17 +60,23 @@ placeholder
 
 ### Diagram Notes
 
-The diagrams for each level will be shown using keyboard diagrams like this. Notes performed by the user in these examples are represented by the blue dots. Green dots represent anything output automatically by the chord trainer. Red dots represent an incorrect input from the user. Written information will be added next to each diagram to provide context to supplement the diagram.
+The diagrams for each level will be shown using keyboard diagrams like this. Notes performed by the user in these examples are represented by the blue dots. Green dots represent anything output automatically by the chord trainer. Red dots represent an incorrect input from the user. Written information will be added next to each diagram to provide context to supplement the diagram. Yellow represents a note that belongs to the chord but was not provided by the user or filled in automatically by the chord trainer.
 
 Here is a blank keyboard diagram.
 
 ![Blank Piano Keyboard Diagram](/Assets/Pictures/blank_piano_keyboard.png?raw=true "Blank Piano Keyboard Diagram")
 
-Here is an example of a keyboard diagram. This example represents a user who has played a C. We can also see that they played the note D above that C, but it was not available to be played in the selected mode and was red. The two green notes added by this program were the E and G above the C. From this information we can gather that the 
+Here is an example of a keyboard diagram. This example represents a user who has played a C. We can also see that they played the note D above that C, but it was not available to be played in the selected mode and was red. The two green notes added by this program were the E and G above the C. From this information we can gather that the chord trainer was set to Level 1, where only one input is required and the chord trainer fills in the rest.
 
-![Blank Piano Keyboard Diagram](/Assets/Pictures/example_diagram.png?raw=true "Blank Piano Keyboard Diagram")
+![Example 1](/Assets/Pictures/example_diagram.png?raw=true "Blank Piano Keyboard Diagram")
+
+In the example below the user does the exact same thing as the previous example, except the mode is set to Level 4, since the notes of the chord are yellow, indicating that they were not filled in by the chord trainer.
+
+![Example 2](/Assets/Pictures/example_diagram_2.png?raw=true "Blank Piano Keyboard Diagram")
 
 ### Using Without a MIDI Keyboard
+
+Press the key with the tilda on it to activate computer keyboard mode. A symbol labeled as such on the interface will light up indicating if this mode is active. See the diagram below for computer to piano keyboard mappings. It is not indicated on the diagram, but the range available is C4 to G5.
 
 ![Computer Keyboard Diagram](/Assets/Pictures/keyboard_diagram.png?raw=true "Computer Keyboard Diagram")
 
