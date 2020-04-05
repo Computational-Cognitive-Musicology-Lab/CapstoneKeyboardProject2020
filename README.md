@@ -94,13 +94,15 @@ The user can select a scale to play in. After that, any one finger input will ei
 
 This mode allows for the user to set a major key or relative minor key and play a single note from that scale. That note will be taken as the root of the chord. Two key appropriate third intervals will be stacked on that root to form a chord, resulting in a major, minor, or diminished chord depending on the root. Any notes played that are outside the selected key will be passed through without any chord being produced.
 
+*Visual Examples*
+
 In the below example, the key has been set to A Major. Playing an F# in the key of A Major results in an F# minor chord.
 
 ![A Major Chord in Level 1](/Assets/Pictures/level_1_1.png?raw=true "Blank Piano Keyboard Diagram")
 
 If the user plays multiple notes, then the leftmost note will be taken as the root of the chord. Notes not in the associated chord will be ignored and notes part of the associated chord that are not the root will continue to play.
 
-In the example below, the key is set to G Major, and the user places their palm over multiple keys. The leftmost not that is played is a D, so the chord trainer uses D as the root of the chord. Every note they play between D and G is pressed by their palm but only the F# plays because it is part of the D Major chord that is formed
+In the example below, the key is set to G Major, and the user places their palm over multiple keys. The leftmost not that is played is a D, so the chord trainer uses D as the root of the chord. Every note they play between D and G is pressed by their palm but only the F# plays because it is part of the D Major chord that is formed.
 
 ![Hand Press Example in Level 1](/Assets/Pictures/level_1_2.png?raw=true "Blank Piano Keyboard Diagram")
 
@@ -114,6 +116,20 @@ The user can play any major or minor chord using two fingers. They should know w
 
 This mode allows for the user to play a chord using two fingers on the root and middle third of the chord. This mode also unrestricts the key limitation and allows the user to play any chord in any key, but the user is limited in that they can only form major and minor chords. This allows for experimentation as the user can learn to finger the corresponding major and minor chords for each root note. The user can also build off of the previous level by playing the same chords as they did for songs, but this time actively choosing whether to play major or minor for that particular key. Any notes outside the accepted major or minor third over the selected root will not be played, resulting in only the root note being played.
 
+*Visual Examples*
+
+In this first example the user plays a B Major chord. The fifth of the chord, F#, is filled in by the chord trainer.
+
+![Hand Press Example in Level 1](/Assets/Pictures/level_2_1.png?raw=true "Blank Piano Keyboard Diagram")
+
+The user is also able to play a minor B chord, by playing D natural, which is a minor third above the root B, shown below.
+
+![Hand Press Example in Level 1](/Assets/Pictures/level_2_2.png?raw=true "Blank Piano Keyboard Diagram")
+
+If the user plays a not that is not the major or minor third, then that note simply won't play. The fifth will still be filled in by the chord trainer since that is based off of the root, shown below.
+
+![Hand Press Example in Level 1](/Assets/Pictures/level_2_3.png?raw=true "Blank Piano Keyboard Diagram")
+
 #### 3 Finger Assisted Chord Input
 
 *Basic Explanation*
@@ -124,6 +140,11 @@ Having learned how to play two notes in a chord, the user will now be required t
 
 This mode is identical to that of the previous level, but the fifth of the chord will no longer be filled in and must be played manually. This again forces a user to intuitively find where to place their third finger on the fifth of the chord. Any notes outside of the accepted inputs of major third, minor third, and major fifth will be filtered out.
 
+*Visual Examples*
+
+
+
+
 #### 3 to 4 Finger Extended Assisted Chord Input
 
 *Basic Explanation*
@@ -133,3 +154,5 @@ The user is now no longer limited to simple major and minor chords. They can now
 *Technical Explanation*
 
 This mode builds on the previous level. In addition to forming major and minor chords, the user is allowed even more freedom in forming chords. This mode is mostly intended for exploration, as it additionally allows for sus2, sus4, min7, Maj7, and octave intervals to be formed over the root in addition to the major third, minor third, and major fifth. Any note outside of these possibilities will again be filtered out.
+
+*Visual Examples*
