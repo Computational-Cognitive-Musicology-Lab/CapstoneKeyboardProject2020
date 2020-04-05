@@ -94,6 +94,16 @@ The user can select a scale to play in. After that, any one finger input will ei
 
 This mode allows for the user to set a major key or relative minor key and play a single note from that scale. That note will be taken as the root of the chord. Two key appropriate third intervals will be stacked on that root to form a chord, resulting in a major, minor, or diminished chord depending on the root. Any notes played that are outside the selected key will be passed through without any chord being produced.
 
+In the below example, the key has been set to A Major. Playing an F# in the key of A Major results in an F# minor chord.
+
+![A Major Chord in Level 1](/Assets/Pictures/level_1_1.png?raw=true "Blank Piano Keyboard Diagram")
+
+If the user plays multiple notes, then the leftmost note will be taken as the root of the chord. Notes not in the associated chord will be ignored and notes part of the associated chord that are not the root will continue to play.
+
+In the example below, the key is set to G Major, and the user places their palm over multiple keys. The leftmost not that is played is a D, so the chord trainer uses D as the root of the chord. Every note they play between D and G is pressed by their palm but only the F# plays because it is part of the D Major chord that is formed
+
+![Hand Press Example in Level 1](/Assets/Pictures/level_1_2.png?raw=true "Blank Piano Keyboard Diagram")
+
 #### 2 Finger Basic Chord Input
 
 *Basic Explanation*
