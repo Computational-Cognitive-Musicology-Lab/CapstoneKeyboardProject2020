@@ -1,36 +1,8 @@
-# To Do (In Order of Priority)
-- [x] implement keyboard splitting
-  - [x] code separately
-  - [x] integrate into main code body
-- [x] implement level 2
-  - [x] design
-  - [x] code separately
-  - [x] integrate into main code body
-- [x] implement level 3
-  - [x] design
-  - [x] code separately
-  - [x] integrate into main code body
-- [x] implement UI changes
-  - [x] design
-  - [x] implement
-- [x] work on documentation ---- current priority
-- [x] fix bugs --- current priority
-- [ ] add pretty pictures to documentation
-- [ ] playing in key with level 2-4
-- [ ] user testing
-- [ ] add relative minor to the key list in the 1 key 1 finger 1 chord section
-- [ ] fix the bugs that are related to midi keyboard input
-  - [ ] sustain lengths seem to be limited to when the keys are held down
-    - [ ] possibly the sustain length might only apply to computer keyboard because of noteoff messages that get sent
-  - [ ] note input is still a bit finicky in terms of detection
-
-
-
-
 # Assistive Chord Trainer for Keyboard Instruments
 This is a BSMT Capstone Project for Spring 2020. The purpose of this project is to design a keyboard learning utility that bridges the gap between learning to play single notes and learning to play chords on a keyboard instrument.
 
 ## Table of Contents
+- [Introduction](#Introduction)
 - [Contributors](#Contributors)
 - [Suggested Use Scenario](#Suggested-Use-Scenario)
 - [Diagram Notes](#Diagram-Notes)
@@ -40,23 +12,35 @@ This is a BSMT Capstone Project for Spring 2020. The purpose of this project is 
   - [3 Finger Assisted Chord Input](#3-Finger-Assisted-Chord-Input)
   - [3 to 4 Finger Extended Assisted Chord Input](#3-to-4-Finger-Extended-Assisted-Chord-Input)
 
+### Introduction
+This is the thing that I wanted when I was a high schooler learning piano. Sure I could play single notes and I could tell you what they were, but chords? Nope. I didn't know enough music theory to just "make" them. I could tell what major and minor were, but every single major and minor chord looked different to me. Why were there so many keys? Why weren't all the major chords the same shape?
+
+This program is designed to help ease someone learning piano through that process. Learning chords is a pain. Learning to play three notes in time and changing your hand shapes to the beat is also a pain. Someone using this program would be able learn the chords to a song easily by starting with simplified chords and moving gradually up to full chords. My goal was for them to be able to play whatever song they wanted to learn the entire time. They can work on chord changes one finger at a time, instead of trying to do several at once.
+
+-LP
+
 ### Contributors
+#### Lyn Phan
+
+- Email: phan@gatech.edu
+- Status: Current 4th Year B.S. Music Technology @ Georgia Institute of Technology (as of Spring 2020)
+- Hobbies: fixing motorcycles, repairing computers, playing video games
+- Background: information technology, web development, indie game sound
+
 #### Alex Crellin
 
 - Email: acrellin1195@gmail.com
 - Status: Current 5th Year B.S. Music Technology @ Georgia Institute of Technology
 - Hobbies: hiking, drumming, playing video games
 
-#### Lyn Phan
-
-- Email: phan@gatech.edu
-- Status: Current 4th Year B.S. Music Technology @ Georgia Institute of Technology
-- Hobbies: fixing motorcycles, repairing computers, playing video games
-- Background: information technology, web development, indie game sound
 
 ### Suggested Use Scenario
 
-placeholder
+A suggested use scenario of this program is to use it as an assistive tool for learning to finger the chords of a song. This use case expects a user to already be able to play single notes and identify notes on a piano keyboard. The user is also expected to know the basics about major and minor chords, though not necessarily be able to form them.
+
+A typical web search for the chords of a song will provide lyrics and associated chords. The user can use the chord progression to play along as they sing or with the original song.
+
+The levels allow the user to play the chords of the song at an increasing complexity each time. This allows the user to first focusing on playing the root of each chord, then the root and third, and finally all three notes. After that they can play on the fourth level which allows for even more variations on chord qualities.
 
 ### Diagram Notes
 
